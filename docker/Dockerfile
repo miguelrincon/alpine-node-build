@@ -19,6 +19,7 @@ RUN apk add krb5-dev czmq-dev
 RUN apk add python py-pip python-dev 
 RUN pip install --upgrade pip
 RUN apk add cairo-dev jpeg-dev giflib-dev pango-dev librsvg-dev
+RUN apk add finger
 
 #
 # we're doing typescript
